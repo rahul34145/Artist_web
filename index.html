@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<div class="header_dabba">
+    <header>
+        <img src="images/icon.jpg" alt="image" height="100%" width="5%">
+        <ul id="links">
+            <a href="index.html" style="text-decoration: none;">
+                <li style="color: white;">Home</li>
+            </a>
+            <a href="shop.html" style="text-decoration: none;">
+                <li style="color: white;">Shop</li>
+            </a>
+            <a href="aboutus.html" style="text-decoration: none;">
+                <li style="color: white;">About Us</li>
+            </a>
+            <a href="contact.html" style="text-decoration: none;">
+                <li style="color: white;">Contact </li>
+            </a>
+
+        </ul>
+    </header>
+</div>
+
+<body>
+
+    <hr color="white">
+    <h2 style="text-align: center; background-color: aliceblue;">Our best selling paintings</h2>
+
+    <div class="slider" style="width: 100%; display:inline-block">
+        <!-- <h3>slider</h3> -->
+        <!-- <a href="shop.html"><img src="images/img1.jpg" alt="" style="margin-left:15% ;"></a> -->
+        <a href="shop.html"><img src="images/ng1.png" alt="" style="margin-left: 15%;  "></a>
+        <a href="shop.html"><img src="images/ng12.png" alt="" style="margin-left:5%; "></a>
+
+    </div>
+    <hr color="white">
+
+
+    <div class="ctgry" style="margin-left: 25%;">
+        <ul id="catg">
+            <li id="all" onclick="show()">All</li>
+            <li id="nature">NATURE</li>
+            <li id="people">PEOPLE</li>
+            <li id="bw">BLACK & WHITE</li>
+
+
+        </ul>
+    </div>
+
+    <!--images-->
+    <div class="paint">
+        <div id="img">
+            <a href="shop.html"><img src="images/img1.jpg" alt="" style="margin-left:4% ; "></a>
+            <a href="shop.html"><img src="images/img5.jpg" alt="" style="margin-left:4% ;"></a>
+            <a href="shop.html"><img src="images/img8.jpg" alt="" style="margin-left:4% ;"></a>
+            <a href="shop.html"><img src="images/img1.jpg" alt="" style="margin-left:4% ;"></a>
+            <a href="shop.html"><img src="images/img5.jpg" alt="" style="margin-left:4% ;"></a>
+            <a href="shop.html"><img src="images/img7.jpg" alt="" style="margin-left:4% ;"></a>
+            <a href="shop.html"><img src="images/img8.jpg" alt="" style="margin-left:4% ;"></a>
+            <a href="shop.html"><img src="images/img5.jpg" alt="" style="margin-left:4% ;"></a>
+            <!-- <img src="images/img1.jpg" alt=""style="margin-left:4% ;"> -->
+        </div>
+        <!-- <div id="img1">
+            <a href="shop.html"><img src="images/img1.jpg" alt="" style="margin-left:4% ; display: none; "></a>
+            <a href="shop.html"><img src="images/img1.jpg" alt="" style="margin-left:4% ; display: none; "></a>
+            <a href="shop.html"><img src="images/img1.jpg" alt="" style="margin-left:4% ; display: none; "></a>
+            <a href="shop.html"><img src="images/img1.jpg" alt="" style="margin-left:4% ; display: none; "></a>
+            <a href="shop.html"><img src="images/img1.jpg" alt="" style="margin-left:4% ; display: none; "></a>
+        </div> -->
+
+
+    </div>
+    <!-- <h1>
+        this
+    </h1>
+    <p>
+
+    </p> -->
+    <script>
+
+        // let all = document.getElementById('all');
+        // all.addEventListener('click', function () {
+        //     alert('IMAGE:->allman\nokand\njjjghhvhhvhjh\njhjhhhhh');
+
+        // });
+        // function all() {
+        // document.getElementById('all').style.display = 'none';
+        // document.getElementById('img').style.display= "none";
+        // document.getElementById('img').style.display="none";
+        // }
+
+        let paint1 = document.getElementById('img');
+        paint1.addEventListener('click', function a2() {
+            alert('This will take you to the shop page!!\nPlease visit the shop page\nTo purchase and ordering there you will get details');
+
+        });
+
+        function show() {
+            // document.getElementById('ire')="images/img1.jpg";
+            document.getElementById('img').style.display = "none";
+            // document.getElementById('image')= ok();
+        }
+
+    </script>
+
+
+
+</body>
+
+
+<footer>
+
+    <div class="foot-left">
+        <h3 style="color: white;text-decoration: underline rgb(245, 7, 157);">About</h3>
+        <p>
+            When you make a purchase on this website, you're not just acquiring a beautiful piece of art; you're
+            investing in the vision and dedication of a talented artist.Browsing and buying art should be a delightful
+            experience. Our user-friendly interface makes it easy to navigate through categories, filter by medium or
+            style, and find the perfect piece for your space.
+        </p>
+    </div>
+    <div class="foot-mid">
+        <h3 style="color: white;text-decoration: underline rgb(245, 7, 157);">Recent works</h3>
+        <p>
+            Some of the recent works which was the best selling art by this artist.
+        </p>
+        <img src="images/icon.jpg" alt="image">
+        <img src="images/img1.jpg" alt="image">
+        <img src="images/img3.jpg" alt="image">
+        <img src="images/img6.jpg" alt="image">
+    </div>
+
+    <div class="foot-right">
+        <h3 style="color: white;text-decoration: underline rgb(245, 7, 157);">Contact</h3>
+        <p> Please follow us on social media</p>
+
+        <a href="https://www.instagram.com"><img src="images/inst.jpg" alt=""></a>
+        <a href="https://www.facebook.com"><img src="images/face.jpg" alt=""></a>
+        <a href="https://www.twitter.com"><img src="images/twit.jpg" alt=""></a>
+
+    </div>
+
+</footer>
+
+<!-- <img id="image"  src="images/brgd1.jpg" alt="" onclick="show()" style="height: 100px; width: 100px;">
+<li id="ire" onclick="show()">ok</li>
+ <script>
+    function show(){ 
+        // document.getElementById('ire')="images/img1.jpg";
+        document.getElementById('img').style.display="none";
+        // document.getElementById('image')= ok();
+    }
+    // function ok() {
+    //     document.getElementById('image').style.display="none";
+    // }
+</script> -->
+
+</html>

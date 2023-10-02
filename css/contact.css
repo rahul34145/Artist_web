@@ -1,0 +1,123 @@
+
+
+
+
+/* for header */
+header {
+    display: flex;
+}
+
+#links {
+    display: flex;
+    position: relative;
+    list-style: none;
+
+    border-radius: 20px;
+    padding-left: 70%;
+
+}
+
+li:hover {
+
+    color: rgb(145, 38, 59);
+    background-color: rgb(235, 219, 230);
+
+}
+
+a {
+    padding: 10%;
+    color: rgb(243, 243, 248);
+
+}
+
+/* for contact */
+
+.contact{
+    /* border: 4px solid rgb(39, 225, 98); */
+    display: flex;
+    height: 30%;
+   
+}
+.con_detail{
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    width: 100%;
+    /* box-shadow: 3px 3px rgb(176, 172, 172); */
+}
+
+/* for form */
+
+.form{
+    /* display: flex; */
+     /* border: 2px solid rgb(41, 36, 36); */
+     width: 100%;
+     margin-left: 2%;
+     margin-right: 2%;
+}
+.form form input {
+    display: block;
+    background-color: rgb(242, 238, 238);
+    width: 70%;
+}
+
+  h2{
+    color: rgb(82, 44, 126);
+    text-decoration: underline;
+    text-shadow: 2px 2px bisque;
+}
+h3{
+    color:  rgb(245, 245, 245);
+    /* text-shadow: 1px 1px bisque; */
+}
+label{
+   color:  rgb(255, 254, 254);
+    text-shadow: 1px 1pxrgb(238, 131, 0);
+    font-size: larger;
+}
+
+/* for footer */
+footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+
+}
+
+footer .foot-left {
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    display: inline-block;
+
+}
+
+footer .foot-mid {
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    display: inline-block;
+    margin-left: 5%;
+
+
+}
+
+footer .foot-mid img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}
+
+footer .foot-right {
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    display: inline-block;
+    margin-left: 5%;
+
+}
+
+footer .foot-right img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}

@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(111, 103, 106);
+    background-image: url("images/brgd3.jpg");
+}
+* {
+    background: fixed;
+}
+/* for header */
+header {
+    display: flex;
+}
+#links{
+    display: flex;
+    position: relative;
+    list-style: none;
+   
+    border-radius: 20px;
+    padding-left: 70%;
+   
+}
+li:hover{
+   
+color: rgb(145, 38, 59);
+background-color: rgb(235, 219, 230);
+    
+}
+a{
+    padding:10%;
+    color: rgb(243, 243, 248);
+    
+}
+
+
+
+
+
+
+/* for footer */
+footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+
+}
+footer .foot-left{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    display: inline-block;
+   
+}
+footer .foot-mid{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    display: inline-block;
+    margin-left: 5%;
+    
+   
+}
+footer .foot-mid img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}
+footer .foot-right{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    display: inline-block;
+    margin-left: 5%;
+   
+}
+footer .foot-right img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}

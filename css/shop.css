@@ -1,0 +1,123 @@
+
+
+/* for header */
+header {
+    display: flex;
+}
+#links{
+    display: flex;
+    position: relative;
+    list-style: none;
+   
+    border-radius: 20px;
+    padding-left: 70%;
+   
+}
+li:hover{
+   
+color: rgb(145, 38, 59);
+background-color: rgb(235, 219, 230);
+    
+}
+a{
+    padding:10%;
+    color: rgb(243, 243, 248);
+    
+}
+/* for search */
+.search{
+    display: flex;
+}
+.search input{
+    padding: 1%;
+    width: 95%;
+    border: solid 2px black;
+    border-radius: 50px;
+    background-color: rgb(204, 198, 198);
+    margin-top: 2%;
+}
+ 
+.paint img {
+    height:200px;
+    width: 200px;
+    border: 15px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 1%;
+    display:inline;
+    
+}
+.paint img:hover{
+    animation: anima 3s linear infinite;
+    background-color: aquamarine;
+    cursor: pointer;
+    
+
+    
+}
+/* image detail */
+.img_detail{
+    background-color: antiquewhite;
+    border: 2px black solid;
+    display: inline-block;
+}
+
+
+
+
+/* .div{
+    border: 2px solid white;
+    display: flex;
+}
+h4{
+    display: inline;
+} */
+
+/* for footer */
+footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+
+}
+footer .foot-left{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    display: inline-block;
+   
+}
+footer .foot-mid{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    display: inline-block;
+    margin-left: 5%;
+    
+   
+}
+footer .foot-mid img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}
+footer .foot-right{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    display: inline-block;
+    margin-left: 5%;
+   
+}
+footer .foot-right img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}
+@keyframes anima {
+    0%{
+        box-shadow: 2px 0px 15px 4px rgb(5, 208, 230);
+    }
+    100%{
+        box-shadow: 2px 0px 15px 4px rgb(230, 5, 129);
+    }
+}
